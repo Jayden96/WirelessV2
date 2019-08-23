@@ -26,10 +26,10 @@ constructor(props) {
   };
 }
 componentDidMount(){
-  fetch("https://www.eventbriteapi.com/v3/events/search/?location.within=20&location.latitude=3.1412&location.longitude=101.68653", {
+  fetch("https://www.eventbriteapi.com/v3/events/search/?location.address=kuala+lumpur", {
     headers: {
       Authorization: "Bearer RSKXCJQP4H4L4GS33LFG",
-      "Content-Type": "application/json",
+      "Content-Type": "text/html",
 
     }
   })
